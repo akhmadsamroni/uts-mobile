@@ -1,0 +1,102 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="id.rdev.catatanpenjualan"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->C:\Users\ACER\AndroidStudioProjects\UTS-PemrogramanMobile\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\ACER\AndroidStudioProjects\UTS-PemrogramanMobile\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\ACER\AndroidStudioProjects\UTS-PemrogramanMobile\app\src\main\AndroidManifest.xml:6:5-67
+11-->C:\Users\ACER\AndroidStudioProjects\UTS-PemrogramanMobile\app\src\main\AndroidManifest.xml:6:22-64
+12
+13    <application
+13-->C:\Users\ACER\AndroidStudioProjects\UTS-PemrogramanMobile\app\src\main\AndroidManifest.xml:8:5-40:19
+14        android:allowBackup="false"
+14-->C:\Users\ACER\AndroidStudioProjects\UTS-PemrogramanMobile\app\src\main\AndroidManifest.xml:9:9-36
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.1.0] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\3f0e982339ff24e9e5cec28c56d30078\core-1.1.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\ACER\AndroidStudioProjects\UTS-PemrogramanMobile\app\src\main\AndroidManifest.xml:10:9-43
+18        android:label="@string/app_name"
+18-->C:\Users\ACER\AndroidStudioProjects\UTS-PemrogramanMobile\app\src\main\AndroidManifest.xml:11:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\ACER\AndroidStudioProjects\UTS-PemrogramanMobile\app\src\main\AndroidManifest.xml:12:9-54
+20        android:supportsRtl="true"
+20-->C:\Users\ACER\AndroidStudioProjects\UTS-PemrogramanMobile\app\src\main\AndroidManifest.xml:13:9-35
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme"
+22-->C:\Users\ACER\AndroidStudioProjects\UTS-PemrogramanMobile\app\src\main\AndroidManifest.xml:14:9-40
+23        android:usesCleartextTraffic="true" >
+23-->C:\Users\ACER\AndroidStudioProjects\UTS-PemrogramanMobile\app\src\main\AndroidManifest.xml:15:9-44
+24        <activity
+24-->C:\Users\ACER\AndroidStudioProjects\UTS-PemrogramanMobile\app\src\main\AndroidManifest.xml:17:9-24:20
+25            android:name="com.samroni.catatanpenjualan.activity._main.Splasschreen"
+25-->C:\Users\ACER\AndroidStudioProjects\UTS-PemrogramanMobile\app\src\main\AndroidManifest.xml:18:13-84
+26            android:theme="@style/Theme.AppCompat.NoActionBar" >
+26-->C:\Users\ACER\AndroidStudioProjects\UTS-PemrogramanMobile\app\src\main\AndroidManifest.xml:19:13-63
+27            <intent-filter>
+27-->C:\Users\ACER\AndroidStudioProjects\UTS-PemrogramanMobile\app\src\main\AndroidManifest.xml:20:13-23:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->C:\Users\ACER\AndroidStudioProjects\UTS-PemrogramanMobile\app\src\main\AndroidManifest.xml:21:17-69
+28-->C:\Users\ACER\AndroidStudioProjects\UTS-PemrogramanMobile\app\src\main\AndroidManifest.xml:21:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->C:\Users\ACER\AndroidStudioProjects\UTS-PemrogramanMobile\app\src\main\AndroidManifest.xml:22:17-77
+30-->C:\Users\ACER\AndroidStudioProjects\UTS-PemrogramanMobile\app\src\main\AndroidManifest.xml:22:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity android:name="com.samroni.catatanpenjualan.activity.report.ReportActivity" />
+33-->C:\Users\ACER\AndroidStudioProjects\UTS-PemrogramanMobile\app\src\main\AndroidManifest.xml:26:9-105
+33-->C:\Users\ACER\AndroidStudioProjects\UTS-PemrogramanMobile\app\src\main\AndroidManifest.xml:26:19-93
+34        <activity android:name="com.samroni.catatanpenjualan.activity.penjualan.PenjualanBarang" />
+34-->C:\Users\ACER\AndroidStudioProjects\UTS-PemrogramanMobile\app\src\main\AndroidManifest.xml:27:9-100
+34-->C:\Users\ACER\AndroidStudioProjects\UTS-PemrogramanMobile\app\src\main\AndroidManifest.xml:27:19-97
+35        <activity android:name="com.samroni.catatanpenjualan.activity.data_barang.DataBarangActivity" />
+35-->C:\Users\ACER\AndroidStudioProjects\UTS-PemrogramanMobile\app\src\main\AndroidManifest.xml:28:9-105
+35-->C:\Users\ACER\AndroidStudioProjects\UTS-PemrogramanMobile\app\src\main\AndroidManifest.xml:28:19-102
+36        <activity android:name="com.samroni.catatanpenjualan.activity.register.RegisterActivity" />
+36-->C:\Users\ACER\AndroidStudioProjects\UTS-PemrogramanMobile\app\src\main\AndroidManifest.xml:29:9-100
+36-->C:\Users\ACER\AndroidStudioProjects\UTS-PemrogramanMobile\app\src\main\AndroidManifest.xml:29:19-97
+37        <activity android:name="com.samroni.catatanpenjualan.activity.data_barang._add.AddBarangActivity" />
+37-->C:\Users\ACER\AndroidStudioProjects\UTS-PemrogramanMobile\app\src\main\AndroidManifest.xml:30:9-109
+37-->C:\Users\ACER\AndroidStudioProjects\UTS-PemrogramanMobile\app\src\main\AndroidManifest.xml:30:19-106
+38        <activity android:name="com.samroni.catatanpenjualan.activity.login.LoginActivity" >
+38-->C:\Users\ACER\AndroidStudioProjects\UTS-PemrogramanMobile\app\src\main\AndroidManifest.xml:31:9-38:20
+38-->C:\Users\ACER\AndroidStudioProjects\UTS-PemrogramanMobile\app\src\main\AndroidManifest.xml:31:19-91
+39            <intent-filter>
+39-->C:\Users\ACER\AndroidStudioProjects\UTS-PemrogramanMobile\app\src\main\AndroidManifest.xml:32:13-37:29
+40                <action android:name="android.intent.action.VIEW" />
+40-->C:\Users\ACER\AndroidStudioProjects\UTS-PemrogramanMobile\app\src\main\AndroidManifest.xml:33:17-69
+40-->C:\Users\ACER\AndroidStudioProjects\UTS-PemrogramanMobile\app\src\main\AndroidManifest.xml:33:25-66
+41                <action android:name="android.intent.action.MAIN" />
+41-->C:\Users\ACER\AndroidStudioProjects\UTS-PemrogramanMobile\app\src\main\AndroidManifest.xml:21:17-69
+41-->C:\Users\ACER\AndroidStudioProjects\UTS-PemrogramanMobile\app\src\main\AndroidManifest.xml:21:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->C:\Users\ACER\AndroidStudioProjects\UTS-PemrogramanMobile\app\src\main\AndroidManifest.xml:22:17-77
+43-->C:\Users\ACER\AndroidStudioProjects\UTS-PemrogramanMobile\app\src\main\AndroidManifest.xml:22:27-74
+44            </intent-filter>
+45        </activity>
+46        <activity android:name="com.samroni.catatanpenjualan.activity._main.MainActivity" />
+46-->C:\Users\ACER\AndroidStudioProjects\UTS-PemrogramanMobile\app\src\main\AndroidManifest.xml:39:9-93
+46-->C:\Users\ACER\AndroidStudioProjects\UTS-PemrogramanMobile\app\src\main\AndroidManifest.xml:39:19-90
+47
+48        <provider
+48-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\98b8cd148374505a1fcb7af8fe37b57c\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+49            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+49-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\98b8cd148374505a1fcb7af8fe37b57c\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+50            android:authorities="id.rdev.catatanpenjualan.lifecycle-process"
+50-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\98b8cd148374505a1fcb7af8fe37b57c\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+51            android:exported="false"
+51-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\98b8cd148374505a1fcb7af8fe37b57c\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+52            android:multiprocess="true" />
+52-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\98b8cd148374505a1fcb7af8fe37b57c\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+53    </application>
+54
+55</manifest>

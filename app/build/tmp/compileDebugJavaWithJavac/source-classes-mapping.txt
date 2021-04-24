@@ -1,0 +1,2 @@
+com/samroni/catatanpenjualan/BuildConfig.java
+ com.samroni.catatanpenjualan.BuildConfig
